@@ -1,4 +1,5 @@
-// we're going to have a trap object, which is created in setup. it includes the main trapOID, other trap-ish options, and an attached list of the OIDCallback objects (the ones you get back from addIntegerHandler etc) to contain the values that need to be ent with this Trap.
+// we're going to have a trap object, which is created in setup. it includes the main trapOID, other trap-ish options, and an attached list of the OIDCallback objects 
+// (the ones you get back from addIntegerHandler etc) to contain the values that need to be ent with this Trap.
 // it ca then be called from code, trap->send or whatever. trap receivers should also be attached to a list that can be changed
 
 #ifndef SNMPTrap_h

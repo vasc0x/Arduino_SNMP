@@ -12,7 +12,7 @@ const char* ssid = "SSID";
 const char* password = "password";
 
 WiFiUDP udp;
-// Starts an SMMPAgent instance with the read-only community string 'public', and read-write community string 'private
+// Starts an SMMPAgent instance with the read-only community string 'public', and read-write community string 'private'
 SNMPAgent snmp = SNMPAgent("public", "private");  
 
 // Numbers used to response to Get requests

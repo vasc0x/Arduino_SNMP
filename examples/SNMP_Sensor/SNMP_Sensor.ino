@@ -26,11 +26,11 @@ const char* rocommunity = "public";  // Read only community string
 const char* rwcommunity = "private"; // Read Write community string for set commands
 
 // RFC1213-MIB (System)
-char* oidSysDescr = ".1.3.6.1.2.1.1.1.0";    // OctetString SysDescr
+char* oidSysDescr    = ".1.3.6.1.2.1.1.1.0"; // OctetString SysDescr
 char* oidSysObjectID = ".1.3.6.1.2.1.1.2.0"; // OctetString SysObjectID
-char* oidSysUptime = ".1.3.6.1.2.1.1.3.0";   // TimeTicks sysUptime (hundredths of seconds)
-char* oidSysContact = ".1.3.6.1.2.1.1.4.0";  // OctetString SysContact
-char* oidSysName = ".1.3.6.1.2.1.1.5.0";     // OctetString SysName
+char* oidSysUptime   = ".1.3.6.1.2.1.1.3.0"; // TimeTicks sysUptime (hundredths of seconds)
+char* oidSysContact  = ".1.3.6.1.2.1.1.4.0"; // OctetString SysContact
+char* oidSysName     = ".1.3.6.1.2.1.1.5.0"; // OctetString SysName
 char* oidSysLocation = ".1.3.6.1.2.1.1.6.0"; // OctetString SysLocation
 char* oidSysServices = ".1.3.6.1.2.1.1.7.0"; // Integer sysServices
 
@@ -49,24 +49,24 @@ int sysServices = 65; // Physical and Application
 // An entry would be required per sensor. This is index 1.
 
 // entityPhysicalTable
-char* oidentPhysicalIndex_1 = ".1.3.6.1.2.1.47.1.1.1.1.1.1";
-char* oidentPhysicalDescr_1 = ".1.3.6.1.2.1.47.1.1.1.1.2.1";
-char* oidentPhysicalVendorType_1 = ".1.3.6.1.2.1.47.1.1.1.1.3.1";
-char* oidentPhysicalContainedIn_1 = ".1.3.6.1.2.1.47.1.1.1.1.4.1";
-char* oidentPhysicalClass_1 = ".1.3.6.1.2.1.47.1.1.1.1.5.1";
+char* oidentPhysicalIndex_1        = ".1.3.6.1.2.1.47.1.1.1.1.1.1";
+char* oidentPhysicalDescr_1        = ".1.3.6.1.2.1.47.1.1.1.1.2.1";
+char* oidentPhysicalVendorType_1   = ".1.3.6.1.2.1.47.1.1.1.1.3.1";
+char* oidentPhysicalContainedIn_1  = ".1.3.6.1.2.1.47.1.1.1.1.4.1";
+char* oidentPhysicalClass_1        = ".1.3.6.1.2.1.47.1.1.1.1.5.1";
 char* oidentPhysicalParentRelPos_1 = ".1.3.6.1.2.1.47.1.1.1.1.6.1";
-char* oidentPhysicalName_1 = ".1.3.6.1.2.1.47.1.1.1.1.7.1";
-char* oidentPhysicalHardwareRev_1 = ".1.3.6.1.2.1.47.1.1.1.1.8.1";
-char* oidentPhysicalFirmwareRev_1 = ".1.3.6.1.2.1.47.1.1.1.1.9.1";
-char* oidentPhysicalSoftwareRev_1 = ".1.3.6.1.2.1.47.1.1.1.1.10.1";
-char* oidentPhysicalSerialNum_1 = ".1.3.6.1.2.1.47.1.1.1.1.11.1";
-char* oidentPhysicalMfgName_1 = ".1.3.6.1.2.1.47.1.1.1.1.12.1";
-char* oidentPhysicalModelName_1 = ".1.3.6.1.2.1.47.1.1.1.1.13.1";
-char* oidentPhysicalAlias_1 = ".1.3.6.1.2.1.47.1.1.1.1.14.1";
-char* oidentPhysicalAssetID_1 = ".1.3.6.1.2.1.47.1.1.1.1.15.1";
-char* oidentPhysicalIsFRU_1 = ".1.3.6.1.2.1.47.1.1.1.1.16.1";
-char* oidentPhysicalMfgDate_1 = ".1.3.6.1.2.1.47.1.1.1.1.17.1";
-char* oidentPhysicalUris_1 = ".1.3.6.1.2.1.47.1.1.1.1.18.1";
+char* oidentPhysicalName_1         = ".1.3.6.1.2.1.47.1.1.1.1.7.1";
+char* oidentPhysicalHardwareRev_1  = ".1.3.6.1.2.1.47.1.1.1.1.8.1";
+char* oidentPhysicalFirmwareRev_1  = ".1.3.6.1.2.1.47.1.1.1.1.9.1";
+char* oidentPhysicalSoftwareRev_1  = ".1.3.6.1.2.1.47.1.1.1.1.10.1";
+char* oidentPhysicalSerialNum_1    = ".1.3.6.1.2.1.47.1.1.1.1.11.1";
+char* oidentPhysicalMfgName_1      = ".1.3.6.1.2.1.47.1.1.1.1.12.1";
+char* oidentPhysicalModelName_1    = ".1.3.6.1.2.1.47.1.1.1.1.13.1";
+char* oidentPhysicalAlias_1        = ".1.3.6.1.2.1.47.1.1.1.1.14.1";
+char* oidentPhysicalAssetID_1      = ".1.3.6.1.2.1.47.1.1.1.1.15.1";
+char* oidentPhysicalIsFRU_1        = ".1.3.6.1.2.1.47.1.1.1.1.16.1";
+char* oidentPhysicalMfgDate_1      = ".1.3.6.1.2.1.47.1.1.1.1.17.1";
+char* oidentPhysicalUris_1         = ".1.3.6.1.2.1.47.1.1.1.1.18.1";
 
 int entPhysicalIndex_1 = 1;
 std::string entPhysicalDescr_1 = "Fake Temperature Sensor";
@@ -92,13 +92,13 @@ std::string entPhysicalUris_1 = "";
 // ENTITY-SENSOR-MIB .1.3.6.1.2.1.99
 // An entry would be required per sensor. This is index 1.
 // Must match index in ENTITY-MIB
-char* oidentPhySensorType_1 = ".1.3.6.1.2.1.99.1.1.1.1.1";
-char* oidentPhySensorScale_1 = ".1.3.6.1.2.1.99.1.1.1.2.1";
-char* oidentPhySensorPrecision_1 = ".1.3.6.1.2.1.99.1.1.1.3.1";
-char* oidentPhySensorValue_1 = ".1.3.6.1.2.1.99.1.1.1.4.1";
-char* oidentPhySensorOperStatus_1 = ".1.3.6.1.2.1.99.1.1.1.5.1";
-char* oidentPhySensorUnitsDisplay_1 = ".1.3.6.1.2.1.99.1.1.1.6.1";
-char* oidentPhySensorValueTimeStamp_1 = ".1.3.6.1.2.1.99.1.1.1.7.1";
+char* oidentPhySensorType_1            = ".1.3.6.1.2.1.99.1.1.1.1.1";
+char* oidentPhySensorScale_1           = ".1.3.6.1.2.1.99.1.1.1.2.1";
+char* oidentPhySensorPrecision_1       = ".1.3.6.1.2.1.99.1.1.1.3.1";
+char* oidentPhySensorValue_1           = ".1.3.6.1.2.1.99.1.1.1.4.1";
+char* oidentPhySensorOperStatus_1      = ".1.3.6.1.2.1.99.1.1.1.5.1";
+char* oidentPhySensorUnitsDisplay_1    = ".1.3.6.1.2.1.99.1.1.1.6.1";
+char* oidentPhySensorValueTimeStamp_1  = ".1.3.6.1.2.1.99.1.1.1.7.1";
 char* oidentPhySensorValueUpdateRate_1 = ".1.3.6.1.2.1.99.1.1.1.8.1";
 
 int entPhySensorType_1 = 8;       // Celsius
